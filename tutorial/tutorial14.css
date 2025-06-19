@@ -1,0 +1,7 @@
+body {margin-top: 20px;margin-left: 50px;font-family: Arial, sans-serif;background-color: #f2f2f2;}
+h1 {text-align: center;color: navy;}
+
+hr {border: none;height: 4px;background-color: blue;width: 50%;}
+img {border: 6px solid #555;margin: 10px;}
+
+font {color: purple;font-size: 18px;font-weight: bold;display: block;margin-top: 10px;margin-bottom: 40px;}p {margin: 0;}
