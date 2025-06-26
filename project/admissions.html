@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Johor - Admissions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                University of Johor
+            </a>
+            <button id="mobile-menu-button" class="mobile-menu-button">
+                <svg class="w-icon h-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            <nav id="main-nav" class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="academics.html" class="nav-link">Academics</a>
+                <a href="admissions.html" class="nav-link active" aria-current="page">Admissions</a>
+                <a href="contact.html" class="nav-link">Contact Us</a>
+                <a href="news-events.html" class="nav-link">News & Events</a>
+                <a href="login.html" class="btn btn-primary">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header/Hero for Admissions -->
+    <section class="hero-section">
+        <div class="hero-bg" style="background-image: url(admissions.jpg);"></div>
+        <div class="container hero-content-wrapper">
+            <h1 class="hero-title">Admissions</h1>
+            <p class="hero-subtitle">
+                Your university journey starts here. Learn about our application process.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content: Admissions -->
+    <main class="container main-content-area">
+        <section class="section welcome-section">
+            <h2 class="section-title">How to Apply</h2>
+            <p class="section-description">
+                We are excited you are considering University of Johor! Our admissions process is designed to be straightforward. Please follow these three steps to submit your application.
+            </p>
+
+            <div class="features-grid">
+                <!-- Step 1 -->
+                <div class="step-card step-primary">
+                    <div class="step-number">1</div>
+                    <h3 class="feature-title">Choose Your Program</h3>
+                    <p class="feature-description">
+                        Explore our wide range of undergraduate and postgraduate programs.
+                    </p>
+                    <a href="academics.html" class="card-link">View Programs &rarr;</a>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step-card step-secondary">
+                    <div class="step-number">2</div>
+                    <h3 class="feature-title">Prepare Documents</h3>
+                    <p class="feature-description">
+                        Gather all necessary documents, including transcripts and identification.
+                    </p>
+                    <a href="#requirements" class="card-link">View Requirements &rarr;</a>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="step-card step-accent">
+                    <div class="step-number">3</div>
+                    <h3 class="feature-title">Submit Application</h3>
+                    <p class="feature-description">
+                        Complete our online application form and submit it.
+                    </p>
+                    <a href="#application-form" class="card-link">Apply Online &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admission Requirements Section -->
+        <section id="requirements" class="section">
+            <h2 class="section-title">Admission Requirements</h2>
+            <div class="grid-2-cols">
+                <div>
+                    <h3 class="section-subtitle">Undergraduate Applicants</h3>
+                    <ul class="ul-simple-list">
+                        <li>High School Transcripts/Diploma</li>
+                        <li>Personal Statement/Essay</li>
+                        <li>Recommendation Letters (optional)</li>
+                        <li>English Language Proficiency (if applicable)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="section-subtitle">Postgraduate Applicants</h3>
+                    <ul class="ul-simple-list">
+                        <li>Bachelor's Degree Transcripts</li>
+                        <li>Curriculum Vitae (CV) / Resume</li>
+                        <li>Statement of Purpose</li>
+                        <li>Two Letters of Recommendation</li>
+                        <li>Research Proposal (for research-based programs)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Important Dates and Deadlines Section -->
+        <section class="section">
+            <h2 class="section-title">Important Dates & Deadlines</h2>
+            <div class="grid-2-cols">
+                <div>
+                    <h3 class="section-subtitle">Fall 2024 Intake</h3>
+                    <ul class="ul-simple-list">
+                        <li>Applications Open: September 1, 2023</li>
+                        <li>Regular Decision Deadline: January 15, 2024</li>
+                        <li>Notification Date: March 1, 2024</li>
+                        <li>Enrollment Deposit Due: May 1, 2024</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="section-subtitle">Spring 2025 Intake</h3>
+                    <ul class="ul-simple-list">
+                        <li>Applications Open: April 1, 2024</li>
+                        <li>Application Deadline: October 1, 2024</li>
+                        <li>Notification Date: November 15, 2024</li>
+                        <li>Enrollment Deposit Due: December 15, 2024</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="section cta-section-teal">
+            <h2 class="section-title-light">Have Questions?</h2>
+            <p class="section-description-light">
+                Our admissions team is here to help you every step of the way!
+            </p>
+            <a href="contact.html" class="btn btn-cta">
+                Contact Admissions Office
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3 class="footer-heading">University of Johor</h3>
+                <p class="footer-text">
+                    123 University Ave, <br>
+                    City, State, 12345 <br>
+                    Country
+                </p>
+            </div>
+            <div>
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-list">
+                    <li><a href="about.html" class="footer-link">About Us</a></li>
+                    <li><a href="academics.html" class="footer-link">Academics</a></li>
+                    <li><a href="admissions.html" class="footer-link">Admissions</a></li>
+                    <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading">Campus Life</h3>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Student Organizations</a></li>
+                    <li><a href="#" class="footer-link">Athletics</a></li>
+                    <li><a href="#" class="footer-link">Housing</a></li>
+                    <li><a href="#" class="footer-link">Events Calendar</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading">Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-text">
+            &copy; 2025 University of Johor. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Font Awesome for social media icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

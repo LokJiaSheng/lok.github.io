@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Johor - Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                University of Johor
+            </a>
+            <button id="mobile-menu-button" class="mobile-menu-button">
+                <svg class="w-icon h-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            <nav id="main-nav" class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="academics.html" class="nav-link">Academics</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <a href="contact.html" class="nav-link">Contact Us</a>
+                <a href="news-events.html" class="nav-link">News & Events</a>
+                <a href="login.html" class="nav-link active btn btn-primary">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header/Hero for Login -->
+    <section class="hero-section">
+        <div class="hero-bg" style="background-image: url(login.jpg);"></div>
+        <div class="container hero-content-wrapper">
+            <h1 class="hero-title">Student & Staff Login</h1>
+            <p class="hero-subtitle">
+                Access your personalized portal for academic resources, course information, and more.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content for Login Page -->
+    <main class="container main-content-area">
+        <section class="form-section">
+            <h2 class="section-title">Sign In to Your Account</h2>
+
+            <form action="#" method="POST" class="form-spacing">
+                <div class="form-group">
+                    <label for="username" class="form-label">Username or Email</label>
+                    <input type="text" id="username" name="username" class="form-input" placeholder="student_id or email@example.edu" required>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" id="password" name="password" class="form-input" placeholder="Enter your password" required>
+                    <div id="password-strength-indicator" class="password-strength-indicator"></div>
+                </div>
+
+                <div class="form-group-flex">
+                    <div class="flex-center">
+                        <input type="checkbox" id="remember-me" name="remember-me" class="checkbox-input">
+                        <label for="remember-me" class="checkbox-label">
+                            Remember me
+                        </label>
+                    </div>
+                    <a href="#" class="form-link">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full-width">
+                    Login
+                </button>
+            </form>
+
+            <div class="text-center-mt-8">
+                <p class="text-gray-600">Don't have an account? <a href="#" class="form-link hover-underline">Sign Up Now</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3 class="footer-heading">University of Johor</h3>
+                <p class="footer-text">
+                    123 University Ave, <br>
+                    City, State, 12345 <br>
+                    Country
+                </p>
+            </div>
+            <div>
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-list">
+                    <li><a href="about.html" class="footer-link">About Us</a></li>
+                    <li><a href="academics.html" class="footer-link">Academics</a></li>
+                    <li><a href="admissions.html" class="footer-link">Admissions</a></li>
+                    <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading">Campus Life</h3>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Student Organizations</a></li>
+                    <li><a href="#" class="footer-link">Athletics</li>
+                    <li><a href="#" class="footer-link">Housing</a></li>
+                    <li><a href="#" class="footer-link">Events Calendar</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading">Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-text">
+            &copy; 2025 University of Johor. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Font Awesome for social media icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

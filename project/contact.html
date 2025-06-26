@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Johor - Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                University of Johor
+            </a>
+            <button id="mobile-menu-button" class="mobile-menu-button">
+                <svg class="w-icon h-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            <nav id="main-nav" class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="academics.html" class="nav-link">Academics</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <a href="contact.html" class="nav-link active" aria-current="page">Contact Us</a>
+                <a href="news-events.html" class="nav-link">News & Events</a>
+                <a href="login.html" class="btn btn-primary">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header/Hero for Contact Us -->
+    <section class="hero-section">
+        <div class="hero-bg" style="background-image: url(contact.jpg);"></div>
+        <div class="container hero-content-wrapper">
+            <h1 class="hero-title">Contact Us</h1>
+            <p class="hero-subtitle">
+                We're here to help! Reach out to us with your questions, feedback, or inquiries.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content for Contact Us Page -->
+    <main class="container main-content-area">
+        <section class="section welcome-section">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-description">
+                Fill out the form below, or use the contact information provided to reach the relevant department.
+            </p>
+
+            <div class="grid-2-cols contact-info-section">
+                <!-- Contact Form Section -->
+                <div class="form-section-container">
+                    <h3 class="section-subtitle">Send Us a Message</h3>
+                    <form action="#" method="POST" class="form-spacing">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-input" placeholder="Inquiry about..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" name="message" rows="6" class="form-textarea" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full-width">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information Section -->
+                <div>
+                    <h3 class="section-subtitle">Contact Information</h3>
+                    <div class="space-y-6">
+                        <div class="info-card general">
+                            <h4>General Inquiries</h4>
+                            <p>Email: <a href="mailto:info@university.edu" class="card-link">info@university.edu</a></p>
+                            <p>Phone: <a href="tel:+1234567890" class="card-link">+1 (234) 567-890</a></p>
+                            <p>Fax: +1 (234) 567-891</p>
+                        </div>
+                        <div class="info-card admissions">
+                            <h4>Admissions Office</h4>
+                            <p>Email: <a href="mailto:admissions@university.edu" class="card-link">admissions@university.edu</a></p>
+                            <p>Phone: <a href="tel:+1234567892" class="card-link">+1 (234) 567-892</a></p>
+                        </div>
+                        <div class="info-card address">
+                            <h4>Campus Address</h4>
+                            <p>University of Johor</p>
+                            <p>123 University Ave,</p>
+                            <p>City, State, 12345</p>
+                            <p>Country</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="section">
+            <h2 class="section-title">Our Location</h2>
+            <div class="map-container">
+                <!-- Google Maps iframe for a generic location -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2505504386925!2d-122.41941568468165!3d37.77492997975988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808b98b9a101%3A0x6b4f7a2d4b9c1d0!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1678234567890!5m2!1sen!2sus"
+                    class="map-embed"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="University Location Map"
+                ></iframe>
+            </div>
+            <p class="section-description-small">
+                *Map shows a placeholder location. Replace with your actual university location.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3 class="footer-heading">University of Johor</h3>
+                <p class="footer-text">
+                    123 University Ave, <br>
+                    City, State, 12345 <br>
+                    Country
+                </p>
+            </div>
+            <div>
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-list">
+                    <li><a href="about.html" class="footer-link">About Us</a></li>
+                    <li><a href="academics.html" class="footer-link">Academics</a></li>
+                    <li><a href="admissions.html" class="footer-link">Admissions</a></li>
+                    <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading">Campus Life</h3>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Student Organizations</a></li>
+                    <li><a href="#" class="footer-link">Athletics</a></li>
+                    <li><a href="#" class="footer-link">Housing</a></li>
+                    <li><a href="#" class="footer-link">Events Calendar</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading">Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-text">
+            &copy; 2025 University of Johor. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Font Awesome for social media icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

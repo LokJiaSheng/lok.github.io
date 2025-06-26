@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Johor - News & Events</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                University of Johor
+            </a>
+            <button id="mobile-menu-button" class="mobile-menu-button">
+                <svg class="w-icon h-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            <nav id="main-nav" class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="academics.html" class="nav-link">Academics</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <a href="contact.html" class="nav-link">Contact Us</a>
+                <a href="news-events.html" class="nav-link active" aria-current="page">News & Events</a>
+                <a href="login.html" class="btn btn-primary">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header/Hero for News & Events -->
+    <section class="hero-section">
+        <div class="hero-bg" style="background-image: url(news&events.jpg);"></div>
+        <div class="container hero-content-wrapper">
+            <h1 class="hero-title">News & Events</h1>
+            <p class="hero-subtitle">
+                Stay updated with the latest happenings, achievements, and upcoming events at the university.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content: News & Events -->
+    <main class="container main-content-area">
+        <section class="section welcome-section">
+            <h2 class="section-title">Latest News</h2>
+            <div id="news-container" class="news-events-grid news-articles">
+                <!-- News articles will be dynamically loaded here by JavaScript -->
+            </div>
+            <div class="text-center-mt-8">
+                <button id="load-more-news" class="btn btn-primary">
+                    Load More News
+                </button>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Upcoming Events</h2>
+            <div id="events-container" class="news-events-grid">
+                <!-- Events will be dynamically loaded here by JavaScript -->
+            </div>
+            <div class="text-center-mt-8">
+                <button id="load-more-events" class="btn btn-cta">
+                    Load More Events
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3 class="footer-heading">University of Johor</h3>
+                <p class="footer-text">
+                    123 University Ave, <br>
+                    City, State, 12345 <br>
+                    Country
+                </p>
+            </div>
+            <div>
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-list">
+                    <li><a href="about.html" class="footer-link">About Us</a></li>
+                    <li><a href="academics.html" class="footer-link">Academics</a></li>
+                    <li><a href="admissions.html" class="footer-link">Admissions</a></li>
+                    <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading">Campus Life</h3>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Student Organizations</a></li>
+                    <li><a href="#" class="footer-link">Athletics</a></li>
+                    <li><a href="#" class="footer-link">Housing</a></li>
+                    <li><a href="#" class="footer-link">Events Calendar</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-heading">Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-text">
+            &copy; 2025 University of Johor. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Font Awesome for social media icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
